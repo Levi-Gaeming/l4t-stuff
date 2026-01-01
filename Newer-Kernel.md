@@ -1,0 +1,2 @@
+This is a guide on how to get a newer kernel (NOT MAINLINE) like fedora 42 on L4S Noble
+Go [here](https://gitlab.com/l4t-community/gnu-linux/switchroot-pipeline/-/jobs/12578404074/artifacts/browse) then download uImage, modules.tar.gz, and nx-plat.dtimg. After you have those installed get your switch's mnicro sd card inserted, navigate to Switchroot then ubuntu-noble, in there paste the 3 files you downloaded (DO NOT EXTRACT ANYTHING), after that insert the micro sd card back into your switch and just boot into ubuntu like normal, the kernel should be fully ready to go
