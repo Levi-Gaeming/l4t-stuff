@@ -5,6 +5,9 @@ set -e
 echo "Updating"
 sudo apt update
 sudo apt dist-upgrade -y
+sudo apt install -y git cmake make gcc g++ python3 pkg-config binutils \
+    libc6 libc6-dev libstdc++6 libstdc++6-dev libpthread-stubs0-dev \
+    libgl1-mesa-dev libvulkan-dev binfmt-support
 
 # this adds support for the BSP
 echo "Adding support for the new BSP"
