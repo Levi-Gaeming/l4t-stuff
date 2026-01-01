@@ -25,3 +25,4 @@ curl -L -o $HOME/wine-9.17-amd64/wine-gecko-x64.msi https://dl.winehq.org/wine/w
 wine64 msiexec /i $HOME/wine-9.17-amd64/wine-mono.msi
 wine64 msiexec /i $HOME/wine-9.17-amd64/wine-gecko-x86.msi
 wine64 msiexec /i $HOME/wine-9.17-amd64/wine-gecko-x64.msi
+source ~/.bashrc
