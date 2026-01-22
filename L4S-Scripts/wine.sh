@@ -19,4 +19,5 @@ source ~/.bashrc
 export PATH="$HOME/wine-11.0-rc3-staging-tkg-amd64-wow64/bin:$PATH"
 export WINEARCH=win64
 wine wineboot
+source ~/.bashrc
 echo "Should be ready!"
