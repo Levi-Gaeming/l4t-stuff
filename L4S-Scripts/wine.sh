@@ -13,10 +13,10 @@ echo "Extracted Wine"
 # registering components
 echo "Registering Wine"
 echo 'export PATH="$HOME/wine-11.0-rc3-staging-tkg-amd64-wow64/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
 
 # setting up wineprefix
 export PATH="$HOME/wine-11.0-rc3-staging-tkg-amd64-wow64/bin:$PATH"
 export WINEARCH=win64
 wine64 wineboot
-source ~/.bashrc
 echo "Should be ready!"
