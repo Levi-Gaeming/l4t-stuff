@@ -1,3 +1,8 @@
+#warning
+echo "THIS MIGHT HAVE WORSE PERFORMANCE COMPARED WINE WOW64"
+echo "CTRL + C TO CANCEL THIS"
+sleep 10s
+
 # gets wine
 echo "Getting Wine 9.17"
 curl -L -O https://github.com/Kron4ek/Wine-Builds/releases/download/9.17/wine-9.17-amd64.tar.xz --silent --show-error
