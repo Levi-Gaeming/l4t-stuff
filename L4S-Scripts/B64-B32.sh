@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+cd
 # dependencies
 echo "Installing Dependencies"
 sudo apt update
